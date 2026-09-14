@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+  background-color: rgb(124, 219, 124);
+ }
+ main{
+  background-color: white;
+  padding: 24px;
+  border-radius: 5px
+ }
+ h1{
+  color: chocolate;
+  text-align: center;
+ }
+ .todo-list{
+  background-color: Orange;
+  border-radius: 5px;
+ }
+
+.sub-item-link{
+  text-decoration: none;
+}
+.sub-item-link:link {
+    color: rgb(76, 18, 18);
+}
+
+.sub-item-link:visited {
+    color: purple;
+}
+
+.sub-item-link:hover {
+    color: red;
+}
+
+.sub-item-link:focus {
+    color: tomato;
+}
+
+.sub-item-link:active {
+    color: brown;
+}
+    </style>
+<body>
+    <main>
+    <h1> MY TO DO </h1>
+    <ul class="todo-list">
+     <li> Fashion
+        <label for="fashion"> </label>
+     <input type="checkbox" id="fashion">
+     <ul class="sub-item">
+        <li>
+            <a  class="sub-item-link"href="https://www.fashionnova.com/collections/dresses" target =_blank> Fashion Nova </a>
+        </li>
+        <li>
+            <a class="sub-item-link"href="https://www.shopcider.com/?utm_source=google_search_brandterm&utm_campaign=skw-brandterm-ss-worldother-cider-pm-pc&link_id=3aca9a2b73e4490db665b9648916eb33&gad_source=1&gad_campaignid=22769289976&gbraid=0AAAAABvq22uueiMfxImd6ADns3hfFRPkV&gclid=CjwKCAjwtp7VBhBjEiwAJfpV-w-a3H6-6hyJE-jK8sL0GUUfsOVDT2voSewlZmp8-hdNEt1BC7Ct9BoCa3QQAvD_BwE" target=_blank> Cider </a>
+            </li>
+            </ul>
+    </li>
+     </ul>
+
+    <ul class="todo-list">
+        <li> Beauty
+         <label for="beauty"></label>
+     <input type="checkbox" id="beauty">
+     <ul class="todo-list">
+        <li>
+            <a 
+            class="sub-item-link"
+            href="https://peronabeauty.com/brands/" target=_blank> Beauty Persona </a>
+            </li>
+            <li>
+                <a class="sub-item-link"href="https://thebodyshop.ng/?gad_source=1&gad_campaignid=24103807106&gbraid=0AAAABDMlvN60Jm7GHrJYH-_NBBkl923rr&gclid=CjwKCAjwtp7VBhBjEiwAJfpV-yA5VVmJPz9b7hGU914hE6buMR_hY8yUe_Nkt8UhKChefw0Rwgif2hoCDJsQAvD_BwE" target=_blank> The Body Shop </a>
+                </li>
+        </ul>
+     </li>
+     </ul>
+    
+     <ul class="todo-list">
+     <li> Gadgets 
+     <label for="gadgets"></label>
+     <input type="checkbox" id="gadgets">
+     <ul class="todo-list">
+        <li>
+            <a
+            class="sub-item-link"
+            href="https://ng.oraimo.com/collections/audio?utm_source=google&utm_medium=google/cpc&campaignid=24047397000&kwd=true%20wireless%20earbuds&gad_source=1&gad_campaignid=24047397000&gbraid=0AAAAA-z9zekyEATXETZx-fgtHJNPX6wVU&gclid=CjwKCAjwtp7VBhBjEiwAJfpV-57ZVm4OMHNdy2q2KjhYUH5dlp2lBjXQRkILxz6vE1hNhOOJrNqLxRoCyBMQAvD_BwE"> Oraimo</a>
+            </li>
+            <li>
+                <a  class="sub-item-link"href="https://www.apple.com/ng/buy/?gad_campaignid=23591586415&gbraid=0AAAABC6Iy1EU_6QOfyIkBEvKtLWFpJJ3N&gclid=CjwKCAjwtp7VBhBjEiwAJfpV-7aRMaudlqL-8Q1-pam6Qq8nO7KMnG8c-79IXxpQk4NXBZsqHQ-EuhoCiH0QAvD_BwE" target=_blank> iPhone 17 pro </a>
+                </li>
+        </ul>
+     </li>
+    </ul>
+    </main>
+</body>
+
+</html>
